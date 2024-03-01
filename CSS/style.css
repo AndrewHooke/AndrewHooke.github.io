@@ -1,5 +1,5 @@
 body {
-    font-family: 'Courier New', Arial, sans-serif;
+    font-family: 'Georgia', 'Courier New', Arial, sans-serif;
     margin: 0;
     background-color: #edfffe;
 }
@@ -19,7 +19,7 @@ nav .intro-lead-in {
     font-style: italic;
     line-height: 40px;
     padding: 0px 10px 0px 10px;
-    font-family: 'Courier New', 'Droid Serif', 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+    font-family: 'Georgia', 'Courier New', 'Droid Serif', 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
 }
 
 footer {
@@ -55,7 +55,7 @@ p {
 
 h2{
     font-weight: 700;
-    font-family: 'Courier New', 'Montserrat', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    font-family: 'Georgia', 'Courier New', 'Montserrat', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
 }
 
 a {
