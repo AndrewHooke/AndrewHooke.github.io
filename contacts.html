@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <!-- ALL meta -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="author" content="Исупов Андрей">
+    
+    <title>Контакты</title>
+
+    <!-- ALL links -->
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+
+</head>
+
+<body id='page-top'>
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <nav class="logo"><a href='#page-top'>Контакты</a></nav>
+        <nav class="menu-toggle" onclick="toggleMenu()">Menu</nav>
+        <nav class="nav-links">
+            <a href="index.html">На главную</a>
+            <a href="resume.html">Резюме</a>
+            <a href="gallery.html">Галерея</a>
+        </nav>
+    </nav>
+
+    <!-- Contact form -->
+    <main class="contact-form">
+        <nav>
+            <h2>Связаться со мной</h2>
+            <form action="#" method="post">
+                <nav>
+                    <label for="name">Имя:</label>
+                    <input type="text" id="name" name="name" required>
+                </nav>
+                <nav>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </nav>
+                <nav>
+                    <label for="phone">Номер телефона:</label>
+                    <input type="text" id="phone" name="phone">
+                </nav>
+                <nav>
+                    <label for="message">Ваше сообщение:</label>
+                    <textarea id="message" name="message" required></textarea>
+                </nav>
+                <nav>
+                    <input type="submit" value="Отправить">
+                </nav>
+            </form>
+        </nav>
+
+    <!-- Другие способы связи -->
+        <nav>
+            <h2>Также можно обращаться здесь:</h2>
+            <ul class="list-inline social-buttons">
+                <li class="list-inline-item">
+                    <a href="tel:89195130161">
+                        <i class="Phone">📞</i>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="http://vk.com/andrew.isupov">
+                        <i class="VK">VK</i>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="http://t.me/andrewhooke">
+                        <i class="Telegram">TG</i>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="mailto:stud179273@vytsu.ru">
+                        <i class="Mail">📩</i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </main>
+
+    <!-- Copyright -->
+    <footer>
+        <p>Copyright &copy; Сайт-портфолио by AndrewIsupov 2024</p>
+    </footer>
+
+    <!-- JS include -->
+    <script src="java/script.js"></script>
+
+</body>
+</html>

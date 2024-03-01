@@ -1,0 +1,228 @@
+body {
+    font-family: 'Courier New', Arial, sans-serif;
+    margin: 0;
+    background-color: #edfffe;
+}
+
+header {
+    color: black;
+    padding: 80px 0px 25px 0px;
+    text-align: center;
+}
+
+main {
+    padding: 10px 25px 0px 25px;
+}
+
+nav .intro-lead-in {
+    font-size: 40px;
+    font-style: italic;
+    line-height: 40px;
+    padding: 0px 10px 0px 10px;
+    font-family: 'Courier New', 'Droid Serif', 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+}
+
+footer {
+    background-color: #333;
+    color: #ffffff;
+    text-align: center;
+    padding: 1px;
+}
+
+p {
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    padding: 50px 0px 0px 0px;
+}
+
+.gallery p {
+    font-size: 30px;
+    padding: 10px 10px 0px 10px;
+}
+
+.gallery img {
+    width: 280px;
+    height: auto; 
+    margin: 10px; 
+}
+
+h2{
+    font-weight: 700;
+    font-family: 'Courier New', 'Montserrat', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 1.5em;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu-toggle {
+    display: none;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+@media (max-width: 600px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 10px;
+    box-sizing: border-box;
+    z-index: 999;
+  }
+
+  .nav-links.show {
+    display: flex;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+}
+
+.logo a {
+    font-size: 130%;
+    color: #fcba03;
+    text-decoration: none;
+}
+
+.nav-links a {
+    padding: 0.2em;
+    font-size: 130%;
+    color: white;
+    text-decoration: none;
+}
+
+.menu-toggle {
+    padding: 0.2em;
+    font-size: 130%;
+    color: white;
+    background-color: #fcba03;
+}
+
+.nav-links a:hover {
+    color: #fcba03;
+}
+
+.resume, #bio {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 40px 20px 20px 20px;
+    border-radius: 8px;
+}
+
+#bio {
+    padding: 5px 20px 20px 20px;
+}
+
+.resume table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+.resume table th, .resume table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+.resume table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.contact-form {
+    width: 80%;
+    margin: auto;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.contact-form input[type="text"], .contact-form input[type="email"], .contact-form textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+}
+
+.contact-form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+ul.social-buttons {
+  margin-bottom: 0;
+}
+
+ul.social-buttons li a {
+    font-size: 20px;
+    line-height: 50px;
+    display: block;
+    width: 50px;
+    height: 50px;
+    transition: 0.3s;
+    color: white;
+    border-radius: 100%;
+    outline: none;
+    background-color: #212529;
+    text-align: center;
+    text-decoration: none;
+}
+
+ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
+  background-color: #fed136;
+}
+
+.list-inline-item {
+  display: inline-block;
+}
