@@ -6,7 +6,7 @@ body {
 
 header {
     color: black;
-    padding: 80px 0px 25px 0px;
+    padding: 80px 10px 25px 10px;
     text-align: center;
 }
 
@@ -14,11 +14,10 @@ main {
     padding: 10px 25px 0px 25px;
 }
 
-nav .intro-lead-in {
+header b {
     font-size: 40px;
     font-style: italic;
     line-height: 40px;
-    padding: 0px 10px 0px 10px;
     font-family: 'Georgia', sans-serif, 'Courier New', 'Droid Serif', 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
 }
 
@@ -39,15 +38,15 @@ p {
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
-    padding: 50px 0px 0px 0px;
+    padding: 20px 0px 0px 0px;
 }
 
 .gallery p {
     font-size: 30px;
-    padding: 10px 10px 0px 10px;
+    padding: 15px 10px 0px 10px;
 }
 
-.gallery img {
+.gallery section img {
     width: 280px;
     height: auto; 
     margin: 10px; 
@@ -76,16 +75,14 @@ a {
     z-index: 1000;
 }
 
-.logo {
-    font-size: 1.5em;
-}
-
 .nav-links {
     display: flex;
     gap: 20px;
 }
 
 .nav-links a {
+    padding: 0.2em;
+    font-size: 130%;
     color: white;
     text-decoration: none;
 }
@@ -119,16 +116,9 @@ a {
   }
 }
 
-.logo a {
-    font-size: 130%;
+.logo {
+    font-size: 160%;
     color: #fcba03;
-    text-decoration: none;
-}
-
-.nav-links a {
-    padding: 0.2em;
-    font-size: 130%;
-    color: white;
     text-decoration: none;
 }
 
@@ -143,7 +133,7 @@ a {
     color: #fcba03;
 }
 
-.resume, #bio {
+.resume section, #bio {
     width: 90%;
     margin: 0 auto;
     background-color: #fff;
@@ -156,16 +146,16 @@ a {
     padding: 5px 20px 20px 20px;
 }
 
-.resume table {
+.resume section table {
     width: 100%;
     border-collapse: collapse;
     margin-bottom: 20px;
 }
-.resume table th, .resume table td {
+.resume section table th, .resume section table td {
     padding: 10px;
     border: 1px solid #ddd;
 }
-.resume table th {
+.resume section table th {
     background-color: #f2f2f2;
     font-weight: bold;
 }
