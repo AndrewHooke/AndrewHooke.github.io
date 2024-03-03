@@ -81,6 +81,18 @@
     <!-- JS include -->
     <script src="java/script.js"></script>
     <script src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+    <script>
+        emailjs.init("OBFr8KmgnoC_loyAX");
+        document.getElementById('form').addEventListener('submit', function(event) {
+        event.preventDefault(); // Не обновляйте страницу, пока сообщение не отправлено
+        emailjs.sendForm('service_je4r3r5', 'template_1bfdxrg', this)
+        .then(function() {
+            alert('Сообщение успешно отправлено!');
+        }, function(error) {
+            alert('Ошибка отправки: ' + error);
+        });
+        });
+    </script>
 
 </body>
 </html>
