@@ -32,7 +32,7 @@
     <main class="contact-form">
         <section>
             <h2>Связаться со мной</h2>
-            <form action="process_form.php" method="post">
+            <form id="form">
                 <label for="name">Имя:</label>
                 <input type="text" id="name" name="name" required>
                 <label for="email">Email:</label>
@@ -80,6 +80,7 @@
 
     <!-- JS include -->
     <script src="java/script.js"></script>
+    <script src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
 
 </body>
 </html>
