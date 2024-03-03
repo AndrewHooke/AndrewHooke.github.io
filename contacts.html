@@ -19,48 +19,38 @@
     
     <!-- Navigation -->
     <nav class="navbar">
-        <nav class="logo"><a href='#page-top'>Контакты</a></nav>
-        <nav class="menu-toggle" onclick="toggleMenu()">Меню</nav>
-        <nav class="nav-links">
+        <a href='#page-top' class="logo">Сайт-портфолио</a>
+        <button class="menu-toggle" onclick="toggleMenu()"><b>Меню</b></button>
+        <section class="nav-links">
             <a href="index.html">На главную</a>
             <a href="resume.html">Резюме</a>
             <a href="gallery.html">Галерея</a>
-        </nav>
+        </section>
     </nav>
 
     <!-- Contact form -->
     <main class="contact-form">
-        <nav>
+        <section>
             <h2>Связаться со мной</h2>
-            <form action="#" method="post">
-                <nav>
-                    <label for="name">Имя:</label>
-                    <input type="text" id="name" name="name" required>
-                </nav>
-                <nav>
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
-                </nav>
-                <nav>
-                    <label for="phone">Номер телефона:</label>
-                    <input type="text" id="phone" name="phone">
-                </nav>
-                <nav>
-                    <label for="message">Ваше сообщение:</label>
-                    <textarea id="message" name="message" required></textarea>
-                </nav>
-                <nav>
-                    <input type="submit" value="Отправить">
-                </nav>
+            <form action="process_form.php" method="post">
+                <label for="name">Имя:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="phone">Номер телефона:</label>
+                <input type="text" id="phone" name="phone">
+                <label for="message">Ваше сообщение:</label>
+                <textarea id="message" name="message" required></textarea>
+                <input type="submit" value="Отправить">
             </form>
-        </nav>
+        </section>
 
     <!-- Другие способы связи -->
-        <nav>
+        <section>
             <h2>Также можно обращаться здесь:</h2>
             <ul class="list-inline social-buttons">
                 <li class="list-inline-item">
-                    <a href="tel:89195130161">
+                    <a href="tel:+79195130161">
                         <i class="Phone">📞</i>
                     </a>
                 </li>
@@ -75,12 +65,12 @@
                     </a>
                 </li>
                 <li class="list-inline-item">
-                    <a href="mailto:stud179273@vytsu.ru">
+                    <a href="mailto:stud179273@vyatsu.ru">
                         <i class="Mail">📩</i>
                     </a>
                 </li>
             </ul>
-        </nav>
+        </section>
     </main>
 
     <!-- Copyright -->
