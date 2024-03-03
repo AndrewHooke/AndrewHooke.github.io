@@ -48,7 +48,7 @@ p {
 
 .gallery section img {
     width: 280px;
-    height: auto; 
+    max-height: 155px; 
     margin: 10px; 
 }
 
